@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Omurbek | Portfolio</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0b1120;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 25px;
+    background: #111827;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #38bdf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.hero {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.hero h1 {
+    font-size: 45px;
+    color: #38bdf8;
+}
+
+.hero p {
+    margin: 20px;
+    font-size: 19px;
+    color: #cbd5e1;
+}
+
+button {
+    padding: 14px 28px;
+    background: #38bdf8;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #38bdf8;
+    margin-bottom: 25px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skill {
+    background: #1e293b;
+    padding: 20px 35px;
+    border-radius: 10px;
+}
+
+footer {
+    background: #111827;
+    padding: 25px;
+    text-align: center;
+    color: #94a3b8;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">OMURBEK</div>
+    <nav>
+        <a href="#home">Башкы бет</a>
+        <a href="#about">Мен жөнүндө</a>
+        <a href="#skills">Билимдерим</a>
+    </nav>
+</header>
+
+<div class="hero" id="home">
+    <h1>Салам! Мен Өмүрбек</h1>
+    <p>Future Web Developer 💻</p>
+    <p>Мен веб-сайттарды түзүүнү үйрөнүп жатам.</p>
+    <button onclick="location.href='#about'">
+        Мен жөнүндө
+    </button>
+</div>
+
+<section id="about">
+    <h2>Мен жөнүндө</h2>
+    <p>Мен программалоого кызыгам.</p>
+    <p>HTML, CSS жана Python үйрөнүп жатам.</p>
+    <p>Максатым — күчтүү программист болуу.</p>
+</section>
+
+<section id="skills">
+    <h2>Менин билимдерим</h2>
+    <div class="skills">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">Python</div>
+        <div class="skill">GitHub</div>
+    </div>
+</section>
+
+<footer>
+    © 2026 Omurbek Portfolio
+</footer>
+
+</body>
+</html>
